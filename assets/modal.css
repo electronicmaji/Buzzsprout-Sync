@@ -1,0 +1,90 @@
+.listen-modal {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    margin-left: -280px;
+    min-height: 300px;
+    padding: 20px 20px 40px 20px;
+    position: absolute;
+    top: 120px;
+    left: 48.5%;
+    width: 550px;
+    outline: none;
+    z-index: 1050;
+}
+
+.listen-modal--close {
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    right: 20px;
+    top: 10px;
+    opacity: 0.2;
+    }
+
+.listen-modal--title {
+    color: #000000;
+        font-size: 40px;
+        letter-spacing: -1px;
+        margin: 30px 0;
+        text-align: center;
+}
+
+.listen-modal__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 80px;
+}
+
+.listen-modal__list a {
+    background-image: url(//assets.buzzsprout.com/assets/public_players/listen_on_small-564e412….svg);
+    background-repeat: no-repeat;
+    background-size: 30px auto;
+    color: #000000;
+    flex: 0 35%;
+    font-size: 17px;
+    font-weight: normal;
+    margin-right: 30px;
+    padding: 20px 0px 20px 40px;
+    transition: transform .2s;
+}
+
+.listen-modal__item--apple {
+    background-position: 0 15px;
+}
+
+.listen-modal__item--spotify {
+    background-position: 0 -37px;
+}
+
+.listen-modal__item--google {
+    background-position: 0 -85px;
+}
+
+.listen-modal__item--overcast {
+    background-position: 0 -335px;
+}
+
+.listen-modal__item--castro {
+    background-position: 0 -435px;
+}
+
+.listen-modal__item--castbox {
+    background-position: 0 -485px;
+}
+
+.listen-modal__item--pocketcasts {
+    background-position: 0 -385px;
+}
+
+.listen-modal__item--podfriend {
+    background-position: 0 -1046px;
+}
+
+.listen-modal__item--rss {
+    background-position: 0 -287px;
+}
+
+
